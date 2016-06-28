@@ -1,0 +1,61 @@
+{
+  "name": "angular2-metric-conversion-pipes",
+  "version": "1.0.0",
+  "description": "metric-conversion-pipes directive for angular2",
+  "main": "index.js",
+  "dependencies": {
+    "angular2": "2.0.0-beta.17",
+    "es6-shim": "^0.35.0",
+    "font-awesome": "^4.6.3",
+    "reflect-metadata": "0.1.2",
+    "rxjs": "5.0.0-beta.6",
+    "systemjs": "0.19.25",
+    "zone.js": "0.6.12"
+  },
+  "scripts": {
+    "start": "tsc && concurrently \"npm run tsc:w\" \"npm run lite\" ",
+    "tsc": "tsc",
+    "tsc:w": "tsc -w",
+    "lite": "lite-server",
+    "typings": "typings",
+    "postinstall": "typings install"
+  },
+  "devDependencies": {
+    "concurrently": "^2.0.0",
+    "lite-server": "^2.2.0",
+    "typescript": "^1.8.10",
+    "typings": "^0.8.1"
+  },
+  "license": "MIT",
+  "author": "Vimala A",
+  "keywords": [
+    "angular2",
+    "angular2-pipes",
+    "angular2-metric-conversion-pipes",
+    "angular2-metric",
+    "angular2-metric-conversion",
+    "metric-conversion-pipes",
+    "maths-conversion-pipes",
+    "maths-conversion",
+    "conversion-pipes",
+    "temperature-conversions",
+    "length-conversions",
+    "mass-conversions",
+    "weight-conversions",
+    "Feet-Inches",
+    "CelsiusToFahrenheit",
+    "FahrenheitToCelsius",
+    "KelvinTOCelsius",
+    "KelvinToFahrenheit",
+    "LB-KG",
+    "Kg-LB",
+    "C-F", "C-K", "F-C", "F-K", "K-F", "K-C",
+    "g-kg", "g-lb", "g-oz", "kg-g", "kg-lb", "kg-oz", "lb-g", "lb-kg", "lb-oz", "oz-g", "oz-kg","oz-lb",
+    "FT-CM", "FT-M", "FT-IN", "FT-MI", "FT-YD",
+    "IN-FT", "IN-M", "IN-MI", "IN-YD", "IN-CM", 
+    "CM-FT","CM-IN","CM-M", "CM-YD", "CM-MI", 
+    "M-FT", "M-IN", "M-CM",
+    "MI-IN", "MI-FT", "MI-CM",
+    "YD-FT", "YD-IN", "YD-CM"
+  ]
+}
