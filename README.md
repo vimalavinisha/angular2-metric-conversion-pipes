@@ -1,11 +1,10 @@
 Angular2 Metric Conversion Pipes
 =========
 
-The sources for this package are in (https://github.com/vimalavinisha/angular2-image-popup) repo. Please file issues and pull requests against this repo.
+The sources for this package are in (https://github.com/vimalavinisha/angular2-metric-conversion-pipes) repo. Please file issues and pull requests against this repo.
 
 ## Demo Output
-  ![angular2-image-popup](https://cloud.githubusercontent.com/assets/11042288/16330239/78a57df6-3a05-11e6-98b9-7414c0eaf794.png)
-  ![popup](https://cloud.githubusercontent.com/assets/11042288/16330244/861f3cc4-3a05-11e6-8757-7baf315eda8c.png)
+  ![metric-conv](https://cloud.githubusercontent.com/assets/11042288/16408139/db870a02-3d34-11e6-8f3b-5b701b8cb9c5.png)
 ##Usage
     node install
       npm install angular2-metric-conversion-pipes
