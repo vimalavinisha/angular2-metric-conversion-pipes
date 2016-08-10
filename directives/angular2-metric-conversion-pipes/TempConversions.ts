@@ -1,4 +1,4 @@
-import {Pipe, PipeTransform} from 'angular2/core';
+import {Pipe, PipeTransform} from '@angular/core';
 // We use the @Pipe decorator to register the name of the pipe
 @Pipe({
   name: 'TempConversions'

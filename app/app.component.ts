@@ -2,7 +2,7 @@
  * @author Vimala A
  */
 
-import {Component} from 'angular2/core';
+import {Component} from '@angular/core';
 import {TempConversions,MassConversions,LengthConversions} from '../directives/angular2-metric-conversion-pipes/index';
 @Component({
     selector : 'my-app',

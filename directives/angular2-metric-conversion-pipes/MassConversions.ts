@@ -1,4 +1,4 @@
-import {Pipe, PipeTransform} from 'angular2/core';
+import {Pipe, PipeTransform} from '@angular/core';
 // We use the @Pipe decorator to register the name of the pipe
 @Pipe({
   name: 'massConversions'
@@ -7,7 +7,7 @@ import {Pipe, PipeTransform} from 'angular2/core';
 export class MassConversions implements PipeTransform {
   transform(value:any, arg1:any, arg2:any):any {
   	var temp, decimalLimit;
-  	if(value && typeof value === 'number')) {
+  	if(value && typeof value === 'number') {
       // Convertions from Grams
   		  if(arg1 === 'g-kg') {
   		     temp = value * 0.001;

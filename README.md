@@ -11,7 +11,7 @@ The sources for this package are in (https://github.com/vimalavinisha/angular2-m
     bower install
       bower install metric-conversion-pipes
 ###2.component file use like below
-      import {Component} from 'angular2/core';
+      import {Component} from '@angular/core';
       import {TempConversions,MassConversions,LengthConversions} from '../directives/angular2-metric-conversion-pipes/index';
      @Component({
          selector : 'my-app',
