@@ -6,7 +6,6 @@ import {Component} from '@angular/core';
 import {TempConversions,MassConversions,LengthConversions} from '../directives/angular2-metric-conversion-pipes/index';
 @Component({
     selector : 'my-app',
-    pipes: [TempConversions,MassConversions,LengthConversions],
     template:  `
       <h3> TempConversions - Example </h3>
       <p> Supported TempConversions pipes- C-F, C-K, F-C, F-K, K-F, K-C </p>
