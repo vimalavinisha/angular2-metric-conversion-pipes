@@ -1,6 +1,6 @@
 {
   "name": "angular2-metric-conversion-pipes",
-  "version": "1.2.o",
+  "version": "1.2.0",
   "description": "metric-conversion-pipes directive for angular2",
   "main": "index.js",
   "dependencies": {
